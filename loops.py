@@ -37,7 +37,6 @@ for i in range(22):
 
 """a = "raj is the pro coder"
 print(len(a))
-
 for i in range(len(a)): 
     print(a[i])
 """
@@ -167,9 +166,9 @@ print(odd)          """
 count_consonant = 0
 for i in s:
     if i in "aeiouAEIOU":     #in is a membership operator that we use here
-        count += 1
+        count += 1consonant
 print(f"coount of vowels are: {count}" ) 
-print(f"count of consonant  """     
+print(f"count of   """     
 
 """for i in range(1,21):
     if i%3 ==0 or i%5 == 0:

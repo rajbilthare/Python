@@ -120,13 +120,105 @@ while attempt < 3:
     else:
         print("your card is blocked")
         attempt += 1"""
+"""
+s = "gdfjsfhjevfgewk"
+count_vowels = 0
+count_consonant = 0
+for i in s:
+    if i in "aeiouAEIOU":     #in is a membership operator that we use here
+        count_vowels += 1
+    else:
+        count_consonant += 1    
+print(f"coount of vowels are: {count_vowels}" ) 
+print(f"count of  cocnsonants are: {count_consonant}"""
 
 
-num = int(input("enter a number"))
-if 
+"""
+for i in range(1,13):
+    for j in range(i):
+        print("raj", end = "")
+    print()   """ 
 
 
+"""n = 153
+power = len(str(n))
+sum = 0
+copy = n 
+while n > 0:
+    last = n% 10
+    n = n // 10
+    sum = sum + last**power   
+    if copy == sum:
+        print("no is armstrong no ")
+    else :
+        print("not an armstrong no ")    """
 
 
+#armstrong no
 
-          
+"""num = 153
+power = len(str(num))
+copy = num 
+sum = 0
+while num>0:
+    last = num%10
+    num =  num//10
+    sum = sum + last**power
+if copy == sum:
+        print("its an armstrong no")
+else:
+        print("its not an armstrong no")   """ 
+
+
+#sort the list in ascending order 
+
+"""l = [1,2,344,55,5,5,6]
+
+for i in range(len(l)):
+    for j in range(len(l)-1):
+        if l[j]>l[j+1]:
+            l[j],l[j+1] = l[j+1],l[j]
+print(l)           """
+
+
+#output - person jiske largest marks aa rhe hai. [dhanya]
+
+"""marks = {'shivam':90,'abhishek':80,'kunal':70,'dhanya':95,'raj':75}
+
+largest = 0  #95
+
+for i in marks.values():
+    if i > largest:
+        largest = i
+
+l = []        
+
+for key, value in marks.items():
+    if value == largest:
+        l.append(key)
+
+print(l)"""
+
+
+marks = {'shivam':90,'abhishek':80,'kunal':70,'dhanya':95,'raj':75}
+
+largest = 0  #95
+s_largest = 0
+
+for i in marks.values():
+    if i > largest:
+        s_largest = largest
+        largest = i
+    elif i > s_largest or i != largest:
+        s_largest = i    
+
+l = []        
+
+for key, value in marks.items():
+    if value == largest:
+        l.append(key)
+    if value == s_largest:
+        l.append(key)    
+
+print(l)
+

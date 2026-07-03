@@ -20,7 +20,7 @@ print(lower + upper) """
 # armstrong number is a number which is equal to the sum of the cube of its digit
 # ques is num is armstrong or not
 """num = 153
-power = len(str(num))  #3
+power  len(str(num))  #3
 copy = num
 sum = 0
 while num> 0:

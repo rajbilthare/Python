@@ -86,7 +86,7 @@ add(True,False) """ # true ki default value 1 hoti hai and false ki 0
 
 
 #default parameter 
-"""def add(a,b=0):gigit
+"""def add(a,b=0):
     print(a+b)
 add(10)    
 add(10,20)"""
@@ -104,7 +104,34 @@ add(10,20)"""
 
 print(factorial(5))"""
 
+"""def even_odd(n):
+ n = int(input("enter a number"))
+ even = 0
+ odd = 0
+ for i in range(1,n+1):
+    if i%2 == 0:
+        even += 1 
+    else :
+        odd += 1
+    return even_odd    
 
+print(even_odd(12))
+"""
+
+
+#factorial using recursion 
+
+"""def factorial(num):
+    if num == 0 or num == 1:
+        return 1 
+    else :
+        return num * factorial(num - 1)
+    
+print(factorial(5))  """
+
+
+
+#lambda , args , kwargs  skip kra hai kyuki data structure nhi hua 
 
    
 

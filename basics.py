@@ -1,4 +1,4 @@
-#print("raj is learning python")
+ #print("raj is learning python")
 
 
 
@@ -153,7 +153,7 @@ print(346>678)"""
 
 """a = 10
 
-if a > 10:
+if a > 10:`````
     print("i will perform task A")
 
 else :
